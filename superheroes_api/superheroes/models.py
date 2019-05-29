@@ -10,11 +10,14 @@ class Superhero(models.Model):
     alter_ego = models.CharField(max_length=50)
     first_appearance = models.CharField(max_length=50)
     characters = models.CharField(max_length=100)
-    foe = models.ForeignKey('Villain', on_delete=models.SET_NULL, null=True)
+    enemy = models.ForeignKey('Villain', on_delete=models.SET_NULL, null=True)
 
     def __str__(self):
         """Returns a string representation of superhero"""
         return self.name
+    
+    class Meta:
+        verbose_name_plural = 'Superheroes'
 
 
 class Villain(models.Model):
