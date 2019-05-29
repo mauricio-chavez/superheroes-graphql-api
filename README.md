@@ -5,6 +5,7 @@ A superheroes api built with Django and GraphQL
 ## Requirements
 
 * python3
+* git
 
 ## Installation
 
