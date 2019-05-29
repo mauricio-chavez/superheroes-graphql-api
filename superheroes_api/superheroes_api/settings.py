@@ -106,3 +106,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 
 STATIC_URL = '/static/'
+
+# Graphene Settings
+
+GRAPHENE = {
+    'SCHEMA': 'superheroes_api.schema.schema',
+}
