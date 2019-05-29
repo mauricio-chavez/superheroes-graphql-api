@@ -36,7 +36,7 @@ $ pip install -r requirements.txt
 Move to the project folder
 
 ```bash
-$ cd superheroes
+$ cd superheroes_api
 ```
 
 Now, run your migrations
