@@ -68,3 +68,5 @@ $ source env/bin/activate
 $ python manage.py runserver
 ```
 
+And, to make queries to GraphQL api, just go to <http://127.0.0.1:8000/graphql/>
+
