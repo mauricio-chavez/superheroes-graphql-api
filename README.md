@@ -1,2 +1,3 @@
-# superheroes-graphql-api
+# Superheroes GraphQL API
+
 A superheroes api built with Django and GraphQL
