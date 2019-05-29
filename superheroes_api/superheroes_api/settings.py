@@ -8,7 +8,11 @@ SECRET_KEY = 'kp&n3&2ya0bfe%q4oax-=!%ddmt6rk)8g6a_1yl60e#6wc-)@2'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    '.ngrok.io',
+]
 
 # Application definition
 
