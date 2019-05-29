@@ -58,6 +58,8 @@ And finally serve the application:
 $ python manage.py runserver
 ```
 
+Then, you must implement by yourself your GraphQL API 
+
 ## Usage
 
 When you already installed the app, you can run on the project root:
