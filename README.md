@@ -22,7 +22,7 @@ $ python3 -m venv env
 $ source env/bin/activate
 ```
 
-When you want to exit your virutal environment:
+When you want to exit your virtual environment:
 
 ```bash
 $ deactivate
@@ -65,9 +65,6 @@ When you already installed the app, you can run on the project root:
 ```bash
 $ python3 -m venv env
 $ source env/bin/activate
-```
-
-```bash
 $ python manage.py runserver
 ```
 
